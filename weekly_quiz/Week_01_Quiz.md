@@ -61,7 +61,7 @@ If you don't see `(base)`, activate the base environment with:
         
 8. Return to the base environment and launch Jupyter Notebook server
 
-        (eods-s21) $ conda deactivate
+        (eods-f21) $ conda deactivate
         (base) $ jupyter notebook
 
 9. In Jupyter, navigate to the folder: weekly_quiz/
@@ -72,13 +72,13 @@ If you don't see `(base)`, activate the base environment with:
 
 12. In the first cell, copy the following code and run:
 
-import sys
-import pandas
-import sklearn
-print('python version:',sys.version)
-print('pandas version:',pandas.__version__)
-print('sklearn version:',sklearn.__version__)
-print('pandas path:',pandas.__path__)
+        import sys
+        import pandas
+        import sklearn
+        print('python version:',sys.version)
+        print('pandas version:',pandas.__version__)
+        print('sklearn version:',sklearn.__version__)
+        print('pandas path:',pandas.__path__)
 
 ---
 
